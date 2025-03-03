@@ -32,8 +32,9 @@ Services Used:
 This Pipeline is created for actual data transfer from (ADLS)Azure Data lake storage to databricks for transformation.The pipeline is created in Azure data factory.All the transformed data is transfered to Sql database and then forwarded to PowerBi for reporting and analysis.
 
 ## PowerBi Dashboard
-
-
+![Data Storage](BatchDashboard1.png)
+![Data Storage](BatchDashboard2.png)
+![Data Storage](RealtimeDashboard.png)
 
 
 
