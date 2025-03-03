@@ -6,3 +6,4 @@ efficiently ingest, process, and analyze data from multiple sources while ensuri
 scalability, and cost-effectiveness. This project aims to build an end-to-end Azure-based ETL and 
 analytics pipeline to enable real-time fraud detection and data-driven decision-making
 ## Medallion Architecture
+![Medallion Architecture](BFSI_ETLpipeline/Architecture.png)
