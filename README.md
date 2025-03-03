@@ -9,4 +9,31 @@ analytics pipeline to enable real-time fraud detection and data-driven decision-
 ![Medallion Architecture](Architecture.png)
 
 ## Data Storage
+![Data Storage](DataStorage.png)
+
+Azure Services Used:
+1. Azure DataLake Storage
+2. Azure DataFactory
+3. Databricks
+4. Azure Sql Database
+
+## Real-Time Dataflow
+![Data Storage](Real-timeDataFlow.png)
+
+Services Used:
+1. Jupyter Notebook for Producer code
+2. Azure Event Hub
+3. Databricks
+4. Azure Sql Database
+
+## ETL Pipeline
+![Data Storage](ELT_pipeline.png)
+
+This Pipeline is created for actual data transfer from (ADLS)Azure Data lake storage to databricks for transformation.The pipeline is created in Azure data factory.All the transformed data is transfered to Sql database and then forwarded to PowerBi for reporting and analysis.
+
+## PowerBi Dashboard
+
+
+
+
 
